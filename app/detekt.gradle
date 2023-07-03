@@ -1,0 +1,10 @@
+detekt {
+    autoCorrect = true
+    config = files("$rootDir/detekt.yml")
+}
+
+afterEvaluate {
+    android.applicationVariants.all { variant ->
+        variant.javaCompileProvider.get().dependsOn('detekt')
+    }
+}

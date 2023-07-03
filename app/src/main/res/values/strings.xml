@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pizza Delivery</string>
+    <string name="max_flavor_warning">You can choose up to two flavors.</string>
+    <string name="next">Continue</string>
+    <string name="flavor_message_single">You have chosen 1 flavor. %s</string>
+    <string name="flavor_message_double">You have chosen 2 flavors. %s and %s</string>
+    <string name="total_price">Total price: $ %s</string>
+    <string name="confirm">Confirm</string>
+    <string name="successful_message">Thanks, we have received your order</string>
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+</resources>
